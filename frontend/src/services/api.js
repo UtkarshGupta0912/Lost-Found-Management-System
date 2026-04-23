@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'https://lost-found-management-system-backend.onrender.com',
+  baseURL: 'https://lost-found-management-system-backend.onrender.com/api',
 });
 
 // Attach JWT token to every request
